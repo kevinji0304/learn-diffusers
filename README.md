@@ -25,6 +25,12 @@ conda install pytorch torchvision -c pytorch
 pip install diffusers transformers accelerate
 ```
 
+4. If you have CUDA enabled, install the CUDA version of PyTorch:
+
+```bash
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -c nvidia
+```
+
 ## Learning Progress
 
 This repository contains my journey through learning diffusion models with the Diffusers library. Each example includes my notes and insights as I explore different aspects of the library.
